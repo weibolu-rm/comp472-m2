@@ -1,6 +1,7 @@
 import time
 import numpy as np
 import random
+from timeout import *
 
 class Game:
     MINIMAX = 0
@@ -13,11 +14,14 @@ class Game:
     # • = 2
     # ⊠ = 3
 
-    def __init__(self, recommend = True, n = 3, b = 0, s = 3):
+    def __init__(self, recommend = True, n = 3, b = 0, s = 3, d1=6, d2=6, t=8):
         self.recommend = recommend
         self.n = n
         self.b = b
         self.s = s
+        self.d1 = d1
+        self.d2 = d2
+        self.t = t
         self.check_valid_args()
         self.initialize_game()
 
@@ -44,6 +48,7 @@ class Game:
         self.current_state = np.zeros((self.n, self.n))
         self.player_turn = '◦'
         self.play_count = self.b
+        self.eval_by_depth = {}
 
 
         # initialize blocks
@@ -57,19 +62,24 @@ class Game:
                 placed_blocks += 1
 
 
-    def draw_board(self):
-        print()
+    def get_board_state(self):
+        board = ''
         for y in range(0, self.n):
             for x in range(0, self.n):
                 if self.current_state[x][y] == 0:
-                    print('□ ', end='')
+                    board += '□ '
                 elif self.current_state[x][y] == 1:
-                    print('◦ ', end='')
+                    board += '◦ '
                 elif self.current_state[x][y] == 2:
-                    print('• ', end='')
+                    board += '• '
                 elif self.current_state[x][y] == 3:
-                    print('⊠ ', end='')
-            print()
+                    board += '⊠ '
+            board += '\n'
+        return board
+
+    def draw_board(self):
+        print()
+        print(self.get_board_state())
         print()
 
 
@@ -225,11 +235,14 @@ class Game:
         # Printing the appropriate message if the game has ended
         if self.result != None:
             if self.result == 1:
+                self.game_trace(info='The winner is ◦ !')
                 print('The winner is ◦ !')
             elif self.result == 2:
                 print('The winner is • !')
+                self.game_trace(info='The winner is • !')
             elif self.result == -1:
                 print("It's a tie!")
+                self.game_trace(info="It's a tie!")
             self.initialize_game()
         return self.result
 
@@ -244,6 +257,7 @@ class Game:
             else:
                 print('The move is not valid! Try again.')
 
+
     def switch_player(self):
         if self.player_turn == '◦':
             self.player_turn = '•'
@@ -251,14 +265,52 @@ class Game:
             self.player_turn = '◦'
         return self.player_turn
 
+    """
+    Doesn't take into account diagonals
+    """
+    def heuristic_v1(self):
+        # columns
+        score = 0
+        h1 = 0
+        h2 = 0
 
-    def minimax(self, max=False):
+        for x in range(0, self.n):
+            for y in range(0, self.n):
+                if self.current_state[x][y] == 1:
+                    score += 1
+                elif self.current_state[x][y] == 2:
+                    score -= 1
+        # cubed to keep negative
+        h1 = score * score * score
+        score = 0
+
+        # rows
+        for y in range(0, self.n):
+            for y in range(0, self.n):
+                if self.current_state[x][y] == 1:
+                    score += 1
+                elif self.current_state[x][y] == 2:
+                    score -= 1
+        h2 = score * score * score
+        score = 0
+
+        return (h1 + h2)
+
+
+
+    def minimax(self, depth, max=False):
         # Minimizing for 'X' and maximizing for 'O'
         # Possible values are:
         # -1 - win for 'X'
         # 0  - a tie
         # 1  - loss for 'X'
         # We're initially setting it to 2 or -2 as worse than the worst case:
+
+        self.eval_by_depth[depth] = self.eval_by_depth.get(depth, 0) + 1
+
+        if depth == 0:
+            return (self.heuristic_v1(), -0, -0)
+
         value = 2
         if max:
             value = -2
@@ -276,14 +328,14 @@ class Game:
                 if self.current_state[i][j] == 0:
                     if max:
                         self.current_state[i][j] = 2
-                        (v, _, _) = self.minimax(max=False)
+                        (v, _, _) = self.minimax(depth - 1, max=False)
                         if v > value:
                             value = v
                             x = i
                             y = j
                     else:
                         self.current_state[i][j] = 1
-                        (v, _, _) = self.minimax(max=True)
+                        (v, _, _) = self.minimax(depth - 1, max=True)
                         if v < value:
                             value = v
                             x = i
@@ -292,13 +344,20 @@ class Game:
         return (value, x, y)
 
 
-    def alphabeta(self, alpha=-2, beta=2, max=False):
+    def alphabeta(self, depth, alpha=-2, beta=2, max=False):
         # Minimizing for 'X' and maximizing for 'O'
         # Possible values are:
         # -1 - win for 'X'
         # 0  - a tie
         # 1  - loss for 'X'
         # We're initially setting it to 2 or -2 as worse than the worst case:
+
+
+        self.eval_by_depth[depth] = self.eval_by_depth.get(depth, 0) + 1
+
+        if depth == 0:
+            return (self.heuristic_v1(), -0, -0)
+
         value = 2
         if max:
             value = -2
@@ -316,14 +375,14 @@ class Game:
                 if self.current_state[i][j] == 0:
                     if max:
                         self.current_state[i][j] = 2
-                        (v, _, _) = self.alphabeta(alpha, beta, max=False)
+                        (v, _, _) = self.alphabeta(depth - 1, alpha, beta, max=False)
                         if v > value:
                             value = v
                             x = i
                             y = j
                     else:
                         self.current_state[i][j] = 1
-                        (v, _, _) = self.alphabeta(alpha, beta, max=True)
+                        (v, _, _) = self.alphabeta(depth - 1, alpha, beta, max=True)
                         if v < value:
                             value = v
                             x = i
@@ -341,6 +400,14 @@ class Game:
                             beta = value
         return (value, x, y)
 
+    def random_move(self):
+        possible_moves = []
+        for x in range(0, self.n):
+            for y in range(0, self.n):
+                if self.current_state[x][y] == 0:
+                    possible_moves.append((-0, x, y))
+        return possible_moves[random.randrange(0, len(possible_moves))]
+
 
     def play(self,algo=None,player_x=None,player_o=None):
         if algo == None:
@@ -349,22 +416,42 @@ class Game:
             player_x = self.HUMAN
         if player_o == None:
             player_o = self.HUMAN
+
+        self.game_trace(player_x, player_o, initial=True)
+
         while True:
             self.draw_board()
+            state_before_timeout = np.copy(self.current_state)
             if self.check_end():
                 return
             start = time.time()
             if algo == self.MINIMAX:
-                if self.player_turn == '◦':
-                    (_, x, y) = self.minimax(max=False)
-                else:
-                    (_, x, y) = self.minimax(max=True)
+                with Timeout(self.t):
+                    try:
+                        if self.player_turn == '◦':
+                            (_, x, y) = self.minimax(self.d1, max=False)
+                        else:
+                            (_, x, y) = self.minimax(self.d2, max=True)
+                    except timeout.TimeoutError:
+
+                        self.game_trace(info=f'** Timeout at depth {max(list(self.eval_by_depth.keys()))}**')
+                        self.current_state = state_before_timeout
+                        (_, x, y) = self.random_move()
+
             else: # algo == self.ALPHABETA
-                if self.player_turn == '◦':
-                    (m, x, y) = self.alphabeta(max=False)
-                else:
-                    (m, x, y) = self.alphabeta(max=True)
+                with Timeout(self.t):
+                    try:
+                        if self.player_turn == '◦':
+                            (m, x, y) = self.alphabeta(self.d1, max=False)
+                        else:
+                            (m, x, y) = self.alphabeta(self.d2, max=True)
+                    except timeout.TimeoutError:
+                        print("timed out")
+                        self.current_state = state_before_timeout
+                        (_, x, y) = self.random_move()
+
             end = time.time()
+
             if (self.player_turn == '◦' and player_x == self.HUMAN) or (self.player_turn == '•' and player_o == self.HUMAN):
                 if self.recommend:
                     print(F'Evaluation time: {round(end - start, 7)}s')
@@ -373,6 +460,19 @@ class Game:
             if (self.player_turn == '◦' and player_x == self.AI) or (self.player_turn == '•' and player_o == self.AI):
                 print(F'Evaluation time: {round(end - start, 7)}s')
                 print(F'Player {self.player_turn} under AI control plays: x = {x}, y = {y}')
+
+                # Info for game trace
+                game_trace_info = f'''Player {self.player_turn} under AI control plays: x = {x}, y = {y}
+i\tEvaluation time: {round(end - start, 7)}s
+ii\tHeuristic evaluations: {sum(self.eval_by_depth.values())}
+iii\tEvaluations by depth: {self.eval_by_depth}
+iv\tAverage evaluation depth 
+v\tAverage recursion depth 
+vi\tTotal number of moves: {self.play_count - self.b}
+'''
+                self.game_trace(info=game_trace_info)
+
+            self.eval_by_depth = {}
 
             if(self.player_turn == '◦'):
                 self.current_state[x][y] = 1
@@ -385,10 +485,27 @@ class Game:
 
             self.switch_player()
 
+
+    def game_trace(self, player_x=None, player_o=None, info=None, initial=False):
+        file_name = f'gameTrace-{self.n}{self.b}{self.s}{self.t}.txt'
+
+        if initial:
+            with open(file_name, 'w') as f:
+                f.write(f'n={self.n} b={self.b} s={self.s} t={self.t}\n')
+                f.write(f'\nPlayer 1: {player_x}\n')
+                f.write(f'Player 2: {player_o}\n')
+                # f.write(f'\n{self.get_board_state()}\n')
+
+        else:
+            with open(file_name, 'a') as f:
+                f.write(f'\n{self.get_board_state()}\n')
+                f.write(f'\n{info}\n')
+
+
 def main():
-    g = Game(recommend=True, n=3, b=1)
+    g = Game(n=4, b=2, d1=2, d2=3)
     g.play(algo=Game.ALPHABETA,player_x=Game.AI,player_o=Game.AI)
-    g.play(algo=Game.MINIMAX,player_x=Game.AI,player_o=Game.HUMAN)
+    #g.play(algo=Game.MINIMAX,player_x=Game.AI,player_o=Game.HUMAN)
     # g.play(algo=Game.HUMAN,player_x=Game.HUMAN,player_o=Game.HUMAN)
 
 if __name__ == "__main__":
