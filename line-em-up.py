@@ -43,16 +43,7 @@ class Game:
         # empty matrix
         self.current_state = np.zeros((self.n, self.n))
         self.player_turn = '◦'
-        self.play_count = 0
-
-        # DEBUG
-#         self.current_state[0][4] = 2
-        # self.current_state[1][3] = 2
-        # self.current_state[2][2] = 2
-        # self.current_state[3][1] = 2
-
-        # self.play_count = 9
-        ######
+        self.play_count = self.b
 
 
         # initialize blocks
@@ -91,6 +82,7 @@ class Game:
             return True
 
 
+    # returns 1 for white win, 2 for black win, -1 for tie and None when game isn't done
     def is_end(self):
         # Vertical win
         prev = -1
@@ -223,10 +215,12 @@ class Game:
             # It's a tie!
             return -1
 
-        # It's a tie!
         return None
 
     def check_end(self):
+        if self.play_count - self.b < self.s:
+            return None
+
         self.result = self.is_end()
         # Printing the appropriate message if the game has ended
         if self.result != None:
@@ -366,7 +360,7 @@ class Game:
                 else:
                     (_, x, y) = self.minimax(max=True)
             else: # algo == self.ALPHABETA
-                if self.player_turn == '•':
+                if self.player_turn == '◦':
                     (m, x, y) = self.alphabeta(max=False)
                 else:
                     (m, x, y) = self.alphabeta(max=True)
@@ -392,14 +386,10 @@ class Game:
             self.switch_player()
 
 def main():
-    g = Game(recommend=True)
+    g = Game(recommend=True, n=3, b=1)
     g.play(algo=Game.ALPHABETA,player_x=Game.AI,player_o=Game.AI)
-    # g.play(algo=Game.MINIMAX,player_x=Game.AI,player_o=Game.HUMAN)
-    # g.play(algo=Game.HUMAN,player_x=Game.AI,player_o=Game.HUMAN)
-
-#     g = Game(n=10, s=4)
-    # g.draw_board()
-    # g.check_end()
+    g.play(algo=Game.MINIMAX,player_x=Game.AI,player_o=Game.HUMAN)
+    # g.play(algo=Game.HUMAN,player_x=Game.HUMAN,player_o=Game.HUMAN)
 
 if __name__ == "__main__":
     main()
