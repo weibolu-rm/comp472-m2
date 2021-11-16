@@ -9,4 +9,17 @@ board where each position has one of 4 values:
 
 
 ### Requirements
+Can use pip to install
 - numpy
+
+### Recommended
+- pypy
+
+
+### Run code
+```
+virtualenv -p pypy venv
+source venv/bin/activate
+
+./pypy line-em-up.py
+```

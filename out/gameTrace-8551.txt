@@ -1,0 +1,1304 @@
+n=8 b=5 s=5 t=1
+
+Player 1: AI d=2 e1
+Player 2: AI d=6 e2
+
+⊠ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ 
+□ ⊠ □ □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ □ 
+□ □ □ □ □ □ □ □ 
+
+
+None
+
+⊠ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ 
+□ ⊠ □ □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ □ 
+□ □ □ □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 0, y = 1
+i	Evaluation time: 0.1447401s
+ii	Heuristic evaluations: 60
+iii	Evaluations by depth: {2: 1, 1: 59}
+iv	Average evaluation depth 1.0166666666666666
+v	Average recursion depth
+vi	Total number of moves: 0
+
+
+⊠ □ □ □ ◦ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+• □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+• ⊠ ◦ □ ⊠ □ □ □ 
+• ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ □ 
+□ □ □ □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ 
+□ ⊠ □ □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ □ 
+□ □ □ □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 5, y = 3
+i	Evaluation time: 1.0011797s
+ii	Heuristic evaluations: 32
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 1, 2: 14, 1: 14}
+iv	Average evaluation depth 1.875
+v	Average recursion depth
+vi	Total number of moves: 1
+
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ 
+□ □ □ □ □ • □ □ 
+□ ⊠ □ □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ □ 
+□ □ □ □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 0, y = 2
+i	Evaluation time: 0.1449468s
+ii	Heuristic evaluations: 58
+iii	Evaluations by depth: {2: 1, 1: 57}
+iv	Average evaluation depth 1.0172413793103448
+v	Average recursion depth
+vi	Total number of moves: 2
+
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+• □ □ □ □ • □ □ 
+◦ ⊠ ◦ ◦ ⊠ □ □ □ 
+• ⊠ □ □ □ □ □ □ 
+• □ □ □ □ ⊠ □ □ 
+□ □ □ □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+□ □ □ □ □ • □ □ 
+□ ⊠ □ □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ □ 
+□ □ □ □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 7, y = 6
+i	Evaluation time: 1.0011411s
+ii	Heuristic evaluations: 81
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 1, 2: 13, 1: 64}
+iv	Average evaluation depth 1.3333333333333333
+v	Average recursion depth
+vi	Total number of moves: 3
+
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+□ □ □ □ □ • □ □ 
+□ ⊠ □ □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ • 
+□ □ □ □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 0, y = 3
+i	Evaluation time: 0.0417104s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 4
+
+
+⊠ □ • □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ • □ □ 
+• ⊠ □ □ ⊠ □ □ □ 
+◦ ⊠ □ □ □ □ □ • 
+◦ □ □ □ □ ⊠ □ • 
+□ □ □ □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ • □ □ 
+□ ⊠ □ □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ • 
+□ □ □ □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 2, y = 4
+i	Evaluation time: 1.0031166s
+ii	Heuristic evaluations: 470
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 9, 2: 9, 1: 449}
+iv	Average evaluation depth 1.0829787234042554
+v	Average recursion depth
+vi	Total number of moves: 5
+
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ • □ □ 
+□ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ • 
+□ □ □ □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 0, y = 4
+i	Evaluation time: 0.0394652s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 6
+
+
+⊠ ◦ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ • □ □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+• ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ □ □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ • 
+□ □ □ □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 2, y = 7
+i	Evaluation time: 1.0012s
+ii	Heuristic evaluations: 459
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 10, 2: 10, 1: 436}
+iv	Average evaluation depth 1.091503267973856
+v	Average recursion depth
+vi	Total number of moves: 7
+
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+□ □ □ □ □ ⊠ □ • 
+□ □ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 0, y = 6
+i	Evaluation time: 0.0402908s
+ii	Heuristic evaluations: 3
+iii	Evaluations by depth: {2: 1, 1: 2}
+iv	Average evaluation depth 1.3333333333333333
+v	Average recursion depth
+vi	Total number of moves: 8
+
+
+⊠ ◦ □ □ □ □ □ □ 
+◦ ◦ □ □ □ □ □ □ 
+◦ □ • □ □ □ □ □ 
+◦ □ □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+• ⊠ □ □ • □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+□ □ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 1, y = 3
+i	Evaluation time: 1.001178s
+ii	Heuristic evaluations: 412
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 9, 2: 9, 1: 391}
+iv	Average evaluation depth 1.0946601941747574
+v	Average recursion depth
+vi	Total number of moves: 9
+
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+□ □ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 0, y = 7
+i	Evaluation time: 0.0338676s
+ii	Heuristic evaluations: 3
+iii	Evaluations by depth: {2: 1, 1: 2}
+iv	Average evaluation depth 1.3333333333333333
+v	Average recursion depth
+vi	Total number of moves: 10
+
+
+⊠ ◦ □ □ □ □ □ □ 
+◦ ◦ □ □ □ □ □ □ 
+◦ ◦ □ □ □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+• ⊠ □ • □ □ □ □ 
+◦ □ • □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 3, y = 2
+i	Evaluation time: 1.0010879s
+ii	Heuristic evaluations: 433
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 10, 2: 10, 1: 410}
+iv	Average evaluation depth 1.0969976905311778
+v	Average recursion depth
+vi	Total number of moves: 11
+
+
+⊠ □ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 1, y = 0
+i	Evaluation time: 0.039315s
+ii	Heuristic evaluations: 3
+iii	Evaluations by depth: {2: 1, 1: 2}
+iv	Average evaluation depth 1.3333333333333333
+v	Average recursion depth
+vi	Total number of moves: 12
+
+
+⊠ ◦ □ • □ □ □ □ 
+◦ ◦ • □ □ □ □ □ 
+◦ ◦ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+• ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ □ □ □ □ □ □ 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 7, y = 0
+i	Evaluation time: 1.00457s
+ii	Heuristic evaluations: 405
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 10, 2: 10, 1: 382}
+iv	Average evaluation depth 1.1037037037037036
+v	Average recursion depth
+vi	Total number of moves: 13
+
+
+⊠ ◦ □ □ □ □ □ • 
+◦ □ □ □ □ □ □ □ 
+◦ □ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 1, y = 1
+i	Evaluation time: 0.0369167s
+ii	Heuristic evaluations: 3
+iii	Evaluations by depth: {2: 1, 1: 2}
+iv	Average evaluation depth 1.3333333333333333
+v	Average recursion depth
+vi	Total number of moves: 14
+
+
+⊠ ◦ □ □ □ □ □ • 
+◦ ◦ □ • □ □ □ □ 
+◦ ◦ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+• ⊠ □ □ □ □ □ □ 
+◦ ◦ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ • □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ □ □ □ □ □ • 
+◦ ◦ □ □ □ □ □ □ 
+◦ □ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ □ 
+□ ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 7, y = 4
+i	Evaluation time: 1.0036638s
+ii	Heuristic evaluations: 417
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 10, 2: 10, 1: 394}
+iv	Average evaluation depth 1.1007194244604317
+v	Average recursion depth
+vi	Total number of moves: 15
+
+
+⊠ ◦ □ □ □ □ □ • 
+◦ ◦ □ □ □ □ □ □ 
+◦ □ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+□ ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 1, y = 2
+i	Evaluation time: 0.0329707s
+ii	Heuristic evaluations: 3
+iii	Evaluations by depth: {2: 1, 1: 2}
+iv	Average evaluation depth 1.3333333333333333
+v	Average recursion depth
+vi	Total number of moves: 16
+
+
+⊠ ◦ ◦ □ □ □ □ • 
+◦ ◦ □ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • • ⊠ □ □ • 
+• ⊠ □ □ □ □ □ □ 
+◦ ◦ □ □ □ ⊠ □ • 
+◦ ◦ • • □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ □ □ □ □ □ • 
+◦ ◦ □ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+□ ⊠ □ □ □ □ □ □ 
+◦ □ □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 1, y = 6
+i	Evaluation time: 1.0056348s
+ii	Heuristic evaluations: 417
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 11, 2: 11, 1: 392}
+iv	Average evaluation depth 1.1079136690647482
+v	Average recursion depth
+vi	Total number of moves: 17
+
+
+⊠ ◦ □ □ □ □ □ • 
+◦ ◦ □ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+□ ⊠ □ □ □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ □ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 1, y = 7
+i	Evaluation time: 0.0284934s
+ii	Heuristic evaluations: 3
+iii	Evaluations by depth: {2: 1, 1: 2}
+iv	Average evaluation depth 1.3333333333333333
+v	Average recursion depth
+vi	Total number of moves: 18
+
+
+⊠ ◦ ◦ □ □ □ □ • 
+◦ ◦ ◦ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ • □ □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • • □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ □ □ □ □ □ • 
+◦ ◦ □ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ □ 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+□ ⊠ □ □ □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 7, y = 2
+i	Evaluation time: 1.0012858s
+ii	Heuristic evaluations: 426
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 12, 2: 12, 1: 399}
+iv	Average evaluation depth 1.1126760563380282
+v	Average recursion depth
+vi	Total number of moves: 19
+
+
+⊠ ◦ □ □ □ □ □ • 
+◦ ◦ □ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ • 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+□ ⊠ □ □ □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 2, y = 0
+i	Evaluation time: 0.0262923s
+ii	Heuristic evaluations: 3
+iii	Evaluations by depth: {2: 1, 1: 2}
+iv	Average evaluation depth 1.3333333333333333
+v	Average recursion depth
+vi	Total number of moves: 20
+
+
+⊠ ◦ ◦ □ • □ □ • 
+◦ ◦ ◦ □ □ □ □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ □ □ □ • □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ □ □ □ □ • 
+◦ ◦ □ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ • 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+□ ⊠ □ □ □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 0, y = 5
+i	Evaluation time: 1.0012486s
+ii	Heuristic evaluations: 422
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 12, 2: 12, 1: 395}
+iv	Average evaluation depth 1.113744075829384
+v	Average recursion depth
+vi	Total number of moves: 21
+
+
+⊠ ◦ ◦ □ □ □ □ • 
+◦ ◦ □ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ • 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ □ □ □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 2, y = 1
+i	Evaluation time: 0.0279789s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 22
+
+
+⊠ ◦ ◦ □ □ □ • • 
+◦ ◦ ◦ □ □ □ □ □ 
+◦ ◦ • • • □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ ◦ □ □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ □ □ □ □ • 
+◦ ◦ ◦ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ • 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ □ □ □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 3, y = 5
+i	Evaluation time: 1.0012915s
+ii	Heuristic evaluations: 400
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 12, 2: 12, 1: 373}
+iv	Average evaluation depth 1.12
+v	Average recursion depth
+vi	Total number of moves: 23
+
+
+⊠ ◦ ◦ □ □ □ □ • 
+◦ ◦ ◦ □ □ □ □ □ 
+◦ ◦ □ • □ □ □ • 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ □ • □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 2, y = 2
+i	Evaluation time: 0.0237634s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 24
+
+
+⊠ ◦ ◦ ◦ • □ □ • 
+◦ ◦ ◦ □ □ □ □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • • □ □ • □ • 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ □ □ □ □ • 
+◦ ◦ ◦ □ □ □ □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ □ • □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 5, y = 1
+i	Evaluation time: 1.0012066s
+ii	Heuristic evaluations: 368
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 8, 2: 17, 1: 340}
+iv	Average evaluation depth 1.122282608695652
+v	Average recursion depth
+vi	Total number of moves: 25
+
+
+⊠ ◦ ◦ □ □ □ □ • 
+◦ ◦ ◦ □ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • □ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ □ • □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 2, y = 3
+i	Evaluation time: 0.0245562s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 26
+
+
+⊠ ◦ ◦ • □ □ □ • 
+◦ ◦ ◦ ◦ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ • • □ □ □ □ 
+◦ • ◦ □ • ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ □ □ □ □ • 
+◦ ◦ ◦ □ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ □ • □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 6, y = 0
+i	Evaluation time: 1.0034654s
+ii	Heuristic evaluations: 365
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 12, 2: 13, 1: 337}
+iv	Average evaluation depth 1.1342465753424658
+v	Average recursion depth
+vi	Total number of moves: 27
+
+
+⊠ ◦ ◦ □ □ □ • • 
+◦ ◦ ◦ □ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ □ • □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player ◦ under AI control plays: x = 2, y = 5
+i	Evaluation time: 0.0245049s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 28
+
+
+⊠ ◦ ◦ ◦ □ □ • • 
+◦ ◦ ◦ ◦ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ ◦ □ • □ • 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ ◦ • • □ □ □ 
+◦ • • □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ □ □ □ • • 
+◦ ◦ ◦ □ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ □ □ 
+
+
+Player • under AI control plays: x = 6, y = 7
+i	Evaluation time: 1.0014617s
+ii	Heuristic evaluations: 370
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 10, 2: 17, 1: 340}
+iv	Average evaluation depth 1.1324324324324324
+v	Average recursion depth
+vi	Total number of moves: 29
+
+
+⊠ ◦ ◦ □ □ □ • • 
+◦ ◦ ◦ □ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • □ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player ◦ under AI control plays: x = 2, y = 6
+i	Evaluation time: 0.0216842s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 30
+
+
+⊠ ◦ ◦ • □ □ • • 
+◦ ◦ ◦ ◦ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ ◦ • • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ ◦ • □ □ • □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ □ □ □ • • 
+◦ ◦ ◦ □ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ □ • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player • under AI control plays: x = 6, y = 4
+i	Evaluation time: 1.0011675s
+ii	Heuristic evaluations: 364
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 8, 2: 23, 1: 330}
+iv	Average evaluation depth 1.14010989010989
+v	Average recursion depth
+vi	Total number of moves: 31
+
+
+⊠ ◦ ◦ □ □ □ • • 
+◦ ◦ ◦ □ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player ◦ under AI control plays: x = 3, y = 0
+i	Evaluation time: 0.0228028s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 32
+
+
+⊠ ◦ ◦ ◦ □ □ • • 
+◦ ◦ ◦ • □ • □ □ 
+◦ ◦ ◦ • • ◦ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ ◦ □ □ • • 
+◦ ◦ ◦ □ □ • □ □ 
+◦ ◦ ◦ • □ □ □ • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player • under AI control plays: x = 6, y = 2
+i	Evaluation time: 1.0092883s
+ii	Heuristic evaluations: 361
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 6, 2: 16, 1: 336}
+iv	Average evaluation depth 1.110803324099723
+v	Average recursion depth
+vi	Total number of moves: 33
+
+
+⊠ ◦ ◦ ◦ □ □ • • 
+◦ ◦ ◦ □ □ • □ □ 
+◦ ◦ ◦ • □ □ • • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player ◦ under AI control plays: x = 3, y = 1
+i	Evaluation time: 0.0183232s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 34
+
+
+⊠ ◦ ◦ ◦ □ □ • • 
+◦ ◦ ◦ ◦ □ • □ • 
+◦ ◦ ◦ • □ □ • • 
+◦ • ◦ • □ • □ □ 
+◦ ⊠ • ◦ ⊠ • • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • ◦ □ □ • □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ ◦ □ □ • • 
+◦ ◦ ◦ ◦ □ • □ □ 
+◦ ◦ ◦ • □ □ • • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player • under AI control plays: x = 5, y = 0
+i	Evaluation time: 1.0063353s
+ii	Heuristic evaluations: 350
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 12, 2: 23, 1: 312}
+iv	Average evaluation depth 1.1685714285714286
+v	Average recursion depth
+vi	Total number of moves: 35
+
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ □ • □ □ 
+◦ ◦ ◦ • □ □ • • 
+◦ • ◦ □ □ • □ □ 
+◦ ⊠ • □ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player ◦ under AI control plays: x = 3, y = 3
+i	Evaluation time: 0.0207512s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 36
+
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ □ • □ □ 
+◦ ◦ ◦ • □ • • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • • ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • ◦ □ □ • • 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ □ • □ □ 
+◦ ◦ ◦ • □ □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • □ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player • under AI control plays: x = 4, y = 1
+i	Evaluation time: 1.001478s
+ii	Heuristic evaluations: 351
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 9, 2: 26, 1: 313}
+iv	Average evaluation depth 1.1595441595441596
+v	Average recursion depth
+vi	Total number of moves: 37
+
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • □ □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • □ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player ◦ under AI control plays: x = 3, y = 4
+i	Evaluation time: 0.0173159s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 38
+
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • • □ 
+◦ ◦ ◦ • □ □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ • □ ⊠ □ • 
+◦ ◦ • ◦ □ • • □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • □ □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player • under AI control plays: x = 4, y = 2
+i	Evaluation time: 1.0014615s
+ii	Heuristic evaluations: 378
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 1, 3: 11, 2: 46, 1: 318}
+iv	Average evaluation depth 1.2116402116402116
+v	Average recursion depth
+vi	Total number of moves: 39
+
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ □ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player ◦ under AI control plays: x = 3, y = 6
+i	Evaluation time: 0.0170407s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 40
+
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ ◦ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • • □ □ □ 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • • ◦ □ • □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ □ 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player • under AI control plays: x = 7, y = 5
+i	Evaluation time: 1.0040884s
+ii	Heuristic evaluations: 380
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 2, 3: 18, 2: 43, 1: 315}
+iv	Average evaluation depth 1.2473684210526317
+v	Average recursion depth
+vi	Total number of moves: 41
+
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ • 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • □ □ □ • □ 
+
+
+Player ◦ under AI control plays: x = 3, y = 7
+i	Evaluation time: 0.0139275s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 42
+
+
+⊠ ◦ ◦ ◦ • • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • ◦ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ ◦ • • 
+• ⊠ ◦ • • □ □ • 
+◦ • ◦ ◦ □ ⊠ • • 
+◦ ◦ • ◦ □ □ • □ 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ • 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • ◦ □ □ • □ 
+
+
+Player • under AI control plays: x = 7, y = 7
+i	Evaluation time: 1.0043354s
+ii	Heuristic evaluations: 396
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 5, 3: 18, 2: 66, 1: 305}
+iv	Average evaluation depth 1.3181818181818181
+v	Average recursion depth
+vi	Total number of moves: 43
+
+
+⊠ ◦ ◦ ◦ □ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ • 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • ◦ □ □ • • 
+
+
+Player ◦ under AI control plays: x = 4, y = 0
+i	Evaluation time: 0.0121214s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 44
+
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ • • ◦ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • • □ □ • 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • ◦ □ ◦ • • 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ • 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • ◦ □ □ • • 
+
+
+Player • under AI control plays: x = 5, y = 7
+i	Evaluation time: 1.0014422s
+ii	Heuristic evaluations: 408
+iii	Evaluations by depth: {6: 1, 5: 1, 4: 7, 3: 7, 2: 73, 1: 319}
+iv	Average evaluation depth 1.286764705882353
+v	Average recursion depth
+vi	Total number of moves: 45
+
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ □ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ • 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • ◦ □ • • • 
+
+
+Player ◦ under AI control plays: x = 4, y = 3
+i	Evaluation time: 0.0119464s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 46
+
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ ◦ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • □ □ □ • 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • ◦ □ • • • 
+
+
+Player • under AI control plays: x = 4, y = 5
+i	Evaluation time: 0.2797995s
+ii	Heuristic evaluations: 140
+iii	Evaluations by depth: {6: 1, 5: 12, 4: 19, 3: 20, 2: 16, 1: 72}
+iv	Average evaluation depth 2.1857142857142855
+v	Average recursion depth
+vi	Total number of moves: 47
+
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ ◦ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • • □ □ • 
+◦ • ◦ ◦ □ ⊠ □ • 
+◦ ◦ • ◦ □ • • • 
+
+
+Player ◦ under AI control plays: x = 4, y = 6
+i	Evaluation time: 0.0097191s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 48
+
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ • 
+◦ ◦ ◦ • • ◦ • • 
+◦ • ◦ ◦ ◦ • □ □ 
+◦ ⊠ • ◦ ⊠ • • • 
+• ⊠ ◦ • • □ □ • 
+◦ • ◦ ◦ ◦ ⊠ • • 
+◦ ◦ • ◦ ◦ • • • 
+
+
+** Timeout at depth 6**
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ ◦ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • • □ □ • 
+◦ • ◦ ◦ ◦ ⊠ □ • 
+◦ ◦ • ◦ □ • • • 
+
+
+Player • under AI control plays: x = 6, y = 6
+i	Evaluation time: 1.0013473s
+ii	Heuristic evaluations: 444
+iii	Evaluations by depth: {6: 1, 5: 8, 4: 15, 3: 63, 2: 57, 1: 300}
+iv	Average evaluation depth 1.5968468468468469
+v	Average recursion depth
+vi	Total number of moves: 49
+
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ ◦ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • • □ □ • 
+◦ • ◦ ◦ ◦ ⊠ • • 
+◦ ◦ • ◦ □ • • • 
+
+
+Player ◦ under AI control plays: x = 4, y = 7
+i	Evaluation time: 0.0089364s
+ii	Heuristic evaluations: 2
+iii	Evaluations by depth: {2: 1, 1: 1}
+iv	Average evaluation depth 1.5
+v	Average recursion depth
+vi	Total number of moves: 50
+
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • □ • • 
+◦ • ◦ ◦ ◦ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • • □ □ • 
+◦ • ◦ ◦ ◦ ⊠ • • 
+◦ ◦ • ◦ ◦ • • • 
+
+
+Player • under AI control plays: x = 5, y = 2
+i	Evaluation time: 0.2950299s
+ii	Heuristic evaluations: 163
+iii	Evaluations by depth: {6: 1, 5: 8, 4: 6, 3: 36, 2: 24, 1: 88}
+iv	Average evaluation depth 1.9263803680981595
+v	Average recursion depth
+vi	Total number of moves: 51
+
+
+⊠ ◦ ◦ ◦ ◦ • • • 
+◦ ◦ ◦ ◦ • • □ □ 
+◦ ◦ ◦ • • • • • 
+◦ • ◦ ◦ ◦ • □ □ 
+◦ ⊠ • ◦ ⊠ □ • • 
+• ⊠ ◦ • • □ □ • 
+◦ • ◦ ◦ ◦ ⊠ • • 
+◦ ◦ • ◦ ◦ • • • 
+
+
+The winner is • !
