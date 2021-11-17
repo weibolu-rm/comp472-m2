@@ -1,3 +1,4 @@
+# BASED ON SKELETON CODE IN SAME REPOSITORY
 import time
 import numpy as np
 import random
@@ -405,8 +406,6 @@ class Game:
         # 1  - loss for 'X'
         # We're initially setting it to 2 or -2 as worse than the worst case:
 
-        self.eval_by_depth[depth] = self.eval_by_depth.get(depth, 0) + 1
-        self.eval_by_depth_agregate[depth] = self.eval_by_depth.get(depth, 0) + 1
 
         if depth == 0:
             # return (self.heuristic_v2(), -0, -0)
@@ -414,6 +413,9 @@ class Game:
                 return (self.heuristic_v1(), -0, -0)
             else:
                 return (self.heuristic_v2(), -0, -0)
+
+        self.eval_by_depth[depth] = self.eval_by_depth.get(depth, 0) + 1
+        self.eval_by_depth_agregate[depth] = self.eval_by_depth.get(depth, 0) + 1
 
         value = 2
         if max:
@@ -680,50 +682,50 @@ def main():
     g.scoreboard_update()
 
     # 2
-    g.scoreboard()
     g = Game(n=4, b=4, s=3, t=1, d1=6, d2=6, blocks=[(0,0), (0,3), (3,0), (3,3)])
+    g.scoreboard()
     for i in range(10):
         g.play(algo=Game.ALPHABETA, player_x=Game.AI, player_o=Game.AI)
     g.scoreboard_update()
 
     # 3
-    g.scoreboard()
     g = Game(n=5, b=4, s=4, t=1, d1=2, d2=6)
+    g.scoreboard()
     for i in range(10):
         g.play(algo=Game.ALPHABETA, player_x=Game.AI, player_o=Game.AI)
     g.scoreboard_update()
 
     # 4
-    g.scoreboard()
     g = Game(n=5, b=4, s=4, t=5, d1=6, d2=6)
+    g.scoreboard()
     for i in range(10):
         g.play(algo=Game.ALPHABETA, player_x=Game.AI, player_o=Game.AI)
     g.scoreboard_update()
 
     # 5
-    g.scoreboard()
     g = Game(n=8, b=5, s=5, t=1, d1=2, d2=6)
+    g.scoreboard()
     for i in range(10):
         g.play(algo=Game.ALPHABETA, player_x=Game.AI, player_o=Game.AI)
     g.scoreboard_update()
 
     # 6
-    g.scoreboard()
     g = Game(n=8, b=5, s=5, t=5, d1=2, d2=6)
+    g.scoreboard()
     for i in range(10):
         g.play(algo=Game.ALPHABETA, player_x=Game.AI, player_o=Game.AI)
     g.scoreboard_update()
 
     # 7
-    g.scoreboard()
     g = Game(n=8, b=6, s=5, t=1, d1=6, d2=6)
+    g.scoreboard()
     for i in range(10):
         g.play(algo=Game.ALPHABETA, player_x=Game.AI, player_o=Game.AI)
     g.scoreboard_update()
 
     # 8
-    g.scoreboard()
     g = Game(n=8, b=6, s=5, t=5, d1=6, d2=6)
+    g.scoreboard()
     for i in range(10):
         g.play(algo=Game.ALPHABETA, player_x=Game.AI, player_o=Game.AI)
     g.scoreboard_update()
